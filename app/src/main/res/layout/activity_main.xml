@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <TextView
         android:id="@+id/tv_current"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Current version"
+        android:paddingLeft="10dp"
         android:textSize="22sp"
         android:layout_gravity="center_vertical"
         android:layout_marginBottom="20dp"/>
@@ -21,6 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Online Version"
+        android:paddingLeft="10dp"
         android:textSize="22sp"
         android:layout_gravity="center_vertical"
        android:layout_marginBottom="70dp"/>
@@ -29,13 +31,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_update"
         android:text="Update"
-        android:visibility="visible"/>
+        android:visibility="gone"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bt_open"
         android:text="Open"
-        android:visibility="gone"/>
+        android:visibility="visible"/>
 
 
 </LinearLayout>
